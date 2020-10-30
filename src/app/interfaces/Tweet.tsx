@@ -1,4 +1,4 @@
 export interface Tweet {
-  id: number,
+  id: string,
   descricao: string
 }

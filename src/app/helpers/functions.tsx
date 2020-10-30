@@ -1,3 +1,3 @@
 export function Copiar(values: any[]) {
-  return JSON.stringify(values);
+  return JSON.parse(JSON.stringify(values));
 }
